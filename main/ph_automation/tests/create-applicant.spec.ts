@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { CreateApplicantPage } from '../pages/CreateApplicantPage';
 import type { Applicant } from '../pages/CreateApplicantPage';
-import path from 'path';
+import path from 'path';    
 
 test.describe('Create Applicant Flow', () => {
     let createApplicantPage: CreateApplicantPage;
