@@ -1,3 +1,4 @@
+import '../../resources/hooks';
 import { test, expect } from '@playwright/test';
 import { CreateApplicantPage } from '../pages/CreateApplicantPage';
 import type { Applicant } from '../pages/CreateApplicantPage';
