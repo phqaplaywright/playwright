@@ -1,3 +1,4 @@
+import '../../resources/hooks';
 import { test, expect } from '@playwright/test';
 import { JobApplicationPage } from '../pages/JobApplicationPage';
 
