@@ -11,6 +11,7 @@ export default defineConfig({
     reporter: [
         ['html'],
         ['list'],
+        ['./main/ph_automation/utils/CustomHtmlReporter'],
         ['./main/ph_automation/utils/apiHandlers/TeamsReporter'],
         ['@reportportal/agent-js-playwright', rpConfig]
     ],
