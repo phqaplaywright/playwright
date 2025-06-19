@@ -9,5 +9,8 @@
     "@playwright/test": "^1.52.0",
     "@reportportal/agent-js-playwright": "^5.1.11",
     "@types/node": "^22.15.21"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.3"
   }
 }
