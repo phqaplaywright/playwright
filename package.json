@@ -11,6 +11,7 @@
     "@types/node": "^22.15.21"
   },
   "dependencies": {
+    "jsonpath-plus": "^10.3.0",
     "nodemailer": "^7.0.3"
   }
 }
